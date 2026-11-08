@@ -2,8 +2,9 @@ NVCRTC 1.0
 ==========
 
 NVCRTC is a pair of DOS utilities that restores VBE 3.0 custom refresh-rate
-control on NVIDIA NV4x/Curie video cards whose video BIOS reports the feature
-but does not actually apply the requested CRTC timing.
+control on NVIDIA GeForce 6 and GeForce 7 series video cards (NV4x/Curie)
+whose video BIOS reports the feature but does not actually apply the requested
+CRTC timing.
 
 The package contains two versions:
 
@@ -26,7 +27,8 @@ custom timing and refresh-rate information to that mode.
 
 Current scope:
 
-  - NVIDIA NV4x/Curie chipsets in the 40h..4Fh family.
+  - NVIDIA GeForce 6/7 series cards (NV4x/Curie chipsets in the 40h..4Fh
+    family).
   - Analog VGA output and CRT displays.
   - Standard VBE 3.0 custom CRTC requests through INT 10h Function 4F02h.
   - Direct VBE 3.0 applications and UniRefresh-style compatibility for older
